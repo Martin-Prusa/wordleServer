@@ -1,0 +1,10 @@
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/ApplicationConfig.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/resources/WordsResource.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/models/WordStatus.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/data/WordsLoader.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/models/ActiveWord.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/models/LetterStatus.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/interfaces/IWordsService.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/services/WordsService.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/models/Word.java
+/Users/martin/Documents/Skola/PRG/WordleServer/src/main/java/cz/martin/wordleserver/filters/CorsFilter.java

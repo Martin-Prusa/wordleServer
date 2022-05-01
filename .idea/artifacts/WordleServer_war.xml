@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WordleServer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WordleServer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WordleServer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WordleServer:war exploded" />
+    </root>
+  </artifact>
+</component>

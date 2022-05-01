@@ -1,0 +1,11 @@
+cz/martin/wordleserver/resources/WordsResource$1.class
+cz/martin/wordleserver/resources/WordsResource.class
+cz/martin/wordleserver/models/WordStatus.class
+cz/martin/wordleserver/models/LetterStatus.class
+cz/martin/wordleserver/models/Word.class
+cz/martin/wordleserver/data/WordsLoader.class
+cz/martin/wordleserver/models/ActiveWord.class
+cz/martin/wordleserver/ApplicationConfig.class
+cz/martin/wordleserver/services/WordsService.class
+cz/martin/wordleserver/filters/CorsFilter.class
+cz/martin/wordleserver/interfaces/IWordsService.class
