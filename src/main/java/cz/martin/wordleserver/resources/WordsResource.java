@@ -34,4 +34,10 @@ public class WordsResource {
     public Response getWord() {
         return Response.ok(wordsService.getWord()).build();
     }
+
+    @GET
+    @Path("generatedAt")
+    public Response getTime() {
+        return Response.ok(wordsService.getWord().getSelectedAt()).build();
+    }
 }
