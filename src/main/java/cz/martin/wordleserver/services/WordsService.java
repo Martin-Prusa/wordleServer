@@ -40,7 +40,7 @@ public class WordsService implements IWordsService {
         char[] letters = value.toCharArray();
         LetterStatus[] statuses = new LetterStatus[value.length()];
         for (int i = 0; i < letters.length; i++) {
-            if(activeWord.getWord().indexOf(letters[i]) == i) statuses[i] = LetterStatus.Correct;
+            if(activeWord.getWord().charAt(i) == letters[i]) statuses[i] = LetterStatus.Correct;
             else if(activeWord.getWord().contains(letters[i]+"")) statuses[i] = LetterStatus.BadPosition;
             else statuses[i] = LetterStatus.None;
         }
