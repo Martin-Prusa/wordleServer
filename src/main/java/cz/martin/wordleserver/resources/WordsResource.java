@@ -8,6 +8,7 @@ import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.time.LocalDateTime;
 import java.util.HashMap;
 
 @Path("words")
@@ -38,6 +39,6 @@ public class WordsResource {
     @GET
     @Path("generatedAt")
     public Response getTime() {
-        return Response.ok(wordsService.getWord().getSelectedAt()).build();
+        return Response.ok(new HashMap<String, LocalDateTime >() {{put("time", wordsService.getWord().getSelectedAt());}}).build();
     }
 }
