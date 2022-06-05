@@ -37,8 +37,12 @@ public class WordsResource {
     }
 
     @GET
-    @Path("generatedAt")
+    @Path("resetAt")
     public Response getTime() {
-        return Response.ok(new HashMap<String, LocalDateTime >() {{put("time", wordsService.getWord().getSelectedAt());}}).build();
+        LocalDateTime t = LocalDateTime.of(wordsService.getWord().getSelectedAt().getYear(), wordsService.getWord().getSelectedAt().getMonth(), wordsService.getWord().getSelectedAt().getDayOfMonth(), wordsService.getWord().getSelectedAt().getHour(), wordsService.getWord().getSelectedAt().getMinute());
+        t = t.plusMinutes(5);
+        t = t.minusMinutes(t.getMinute() % 5);
+        LocalDateTime finalT = t;
+        return Response.ok(new HashMap<String, LocalDateTime >() {{put("time", finalT);}}).build();
     }
 }

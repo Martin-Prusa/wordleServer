@@ -1,6 +1,7 @@
 cz/martin/wordleserver/resources/WordsResource$1.class
 cz/martin/wordleserver/beans/TimerBean.class
 cz/martin/wordleserver/resources/WordsResource.class
+cz/martin/wordleserver/resources/WordsResource$2.class
 cz/martin/wordleserver/models/WordStatus.class
 cz/martin/wordleserver/models/LetterStatus.class
 cz/martin/wordleserver/models/Word.class
